@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        
+        <Label x:Name="lbl1" Content="Label" HorizontalAlignment="Left" Height="37" Margin="60,37,0,0" VerticalAlignment="Top" Width="131" Background="#FF9EF99F"/>
+        <Button x:Name="btn1" Content="Click Me!" HorizontalAlignment="Left" Height="39" Margin="73,101,0,0" VerticalAlignment="Top" Width="128" Click="btn1_Click" />
+        <ListBox x:Name="lbx1" HorizontalAlignment="Left" Height="116" Margin="260,56,0,0" VerticalAlignment="Top" Width="122">
+            <ListBoxItem>Hétfő</ListBoxItem>
+            <ListBoxItem>Kedd</ListBoxItem>
+            <ListBoxItem>Szerda</ListBoxItem>
+        </ListBox>
+        
+    </Grid>
+</Window>
